@@ -87,3 +87,12 @@
   #app awsui-column-layout > div > span > div > div:nth-child(2) > div:nth-child(2){filter:blur(4px);} /* ARN */
 }
 
+@-moz-document regexp("https://.+\\.console\\.aws\\.amazon\\.com/controltower/home/setup\\?region=.+") {
+  #master-account-email-form {filter:blur(5px);} 
+  #aws-control-tower-log-archive-email {filter:blur(5px);} 
+  #aws-control-tower-cross-account-audit-email {filter:blur(5px);}
+  #ステップ-3-共有アカウントの設定 > div:nth-child(2) > div > div > div > div.awsui_content_14iqq_14jts_189.awsui_with-paddings_14iqq_14jts_258 > div > div > div > div > div > div > div > div > div:nth-child(2) {filter:blur(5px);}
+  #ステップ-3-共有アカウントの設定 > div:nth-child(3) > div > div > div > div.awsui_content_14iqq_14jts_189.awsui_with-paddings_14iqq_14jts_258 > div > div > div > div:nth-child(2) > div > div > div > div > div:nth-child(2){filter:blur(5px);}
+  #ステップ-3-共有アカウントの設定 > div:nth-child(4) > div > div > div > div.awsui_content_14iqq_14jts_189.awsui_with-paddings_14iqq_14jts_258 > div > div > div > div:nth-child(2) > div > div > div > div > div:nth-child(2){filter:blur(5px);}
+}
+
